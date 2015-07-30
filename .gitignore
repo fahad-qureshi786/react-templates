@@ -23,3 +23,4 @@ npm-debug.log
 ### Test Output ###
 test/data/*.rt.actual.js
 test/data/*.code.js
+config.bat
