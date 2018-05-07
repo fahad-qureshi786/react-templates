@@ -7,7 +7,7 @@
     "rt": "./bin/rt.js"
   },
   "scripts": {
-    "build": "npm run lint && npm run test",
+    "build": "node api.js && npm run lint && npm run test",
     "lint": "eslint .",
     "test1": "babel-node test/src/test.js",
     "test": "mocha test/src/**/*.unit.js",
@@ -33,7 +33,7 @@
   "dependencies": {
     "chalk": "2.3.0",
     "cheerio": "0.22.0",
-    "css": "2.2.1",
+    "css": "2.2.2",
     "escodegen": "1.9.0",
     "esprima": "4.0.0",
     "glob": "7.1.2",
