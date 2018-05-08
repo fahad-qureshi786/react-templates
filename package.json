@@ -1,13 +1,13 @@
 {
   "name": "react-templates",
-  "version": "0.6.2",
+  "version": "0.6.3",
   "description": "Light weight templates for react -> write html get valid react code",
   "main": "./dist/cli.js",
   "bin": {
     "rt": "./bin/rt.js"
   },
   "scripts": {
-    "build": "npm run lint && npm run test",
+    "build": "node api.js && npm run lint && npm run test",
     "lint": "eslint . --cache",
     "test1": "babel-node test/src/test.js",
     "pretest": "npm run lint",
